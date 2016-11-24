@@ -1,0 +1,162 @@
+Program 1 :
+----------------------------------------------------------------------------
+#! /usr/bin/perl
+$StringValue='Suganya am working in Wipro Technologies';
+$NumberValue=123;
+$FloatValue=123.456;
+$BooleanValue=TRUE;
+print "The given String value is $StringValue\n";
+print "The given Number value is $NumberValue\n";
+print "The given Float alue is $FloatValue\n";
+print "The given Boolean value is $BooleanValue\n"
+
+Program 2:
+----------------------------------------------------------------------------
+#! /usr/bin/perl
+## Demonstration of Inputing Values
+print "Enter any String Value";
+$StringValue=<stdin>;
+print "Enter any Number Value";
+$NumberValue=<stdin>;
+print "Enter any Float Value";
+$FloatValue=<stdin>;
+print "The Given String Value is $StringValue";
+print "The Given Number Value is$NumberValue";
+print "The Given Float Value is $FloatValue";
+print 'End of Values and Variables'
+
+Program 3:
+----------------------------------------------------------------------------
+#! /usr/bin/perl
+## Demonstration of Inputing Values
+print "Enter any String Value";
+chomp($StringValue=<stdin>);
+print "Enter any Number Value";
+chomp($NumberValue=<stdin>);
+print "Enter any Float Value";
+chomp($FloatValue=<stdin>);
+print "The Given String Value is $StringValue";
+print "The Given Number Value is$NumberValue";
+print "The Given Float Value is $FloatValue";
+print 'End of Values and Variables'
+
+Program 4:
+----------------------------------------------------------------------------
+$a = "Wipro Technologies";
+chomp($a);
+print $a . "\n";
+$a = "Wipro Technologies\n";
+chomp($a);
+print $a. "\n";
+$a = "Wipro Technologies";
+$b = chomp($a);
+print $b."\n";
+$a = "Wipro Technologies";
+chop($a);
+print $a."\n";
+$a = "Wipro Technologies";
+$b = chop($a);
+print $b."\n";
+
+Program 5:
+----------------------------------------------------------------------------
+#! /usr/bin/perl
+## Demonstration of Mathematical Operations
+print "Enter any 2 Numbers\n";
+$x = <stdin>;
+$y = <stdin>;
+$res = $x + $y;
+print "\nThe two given numbers are $x and $y";
+print "\nThe Sum of two given numbers is $res\n";
+print "End";
+
+Program 6:
+----------------------------------------------------------------------------
+#! /usr/bin/perl
+## Demonstration of Mathematical Operations
+print "Enter any 2 Numbers\n";
+print "The sum of given values " . (($x=<stdin>) + ($y=<stdin>))."\n";
+print "End";
+
+Program 7 :
+----------------------------------------------------------------------------
+#! /usr/bin/perl
+## Demonstration of Mathematical Operations
+print "Enter any 2 Numbers\n";
+$no1 = <stdin> ;
+$no2 = <stdin>;
+$res = $no1 * $no2;
+print "The two given numbers are $no1,$no2";
+print "\nThe Multiplication of two given numbers is $res";
+$res = $no1 / $no2;
+print "\nThe Division of two given numbers is $res";
+$res = $no1 ** $no2;
+print "\nThe Exponential of two given numbers is $res";
+$res = $no1 % $no2;
+print "\nThe Modulus of two given numbers is $res";
+print "\nEnd";
+
+Program 8 :
+----------------------------------------------------------------------------
+# Demonstration of Mathematical Operations
+ $a="Wipro";
+ print "Surya\n" x 5;
+ print "$a";
+
+Program 9 :
+----------------------------------------------------------------------------
+# Demonstration of Mathematical Operations
+ $a="Wipro";
+ print "Surya\n" x 5;
+ print "$a";
+[satya@ORASER suganya]$ cat test9.pl
+#! /usr/bin/perl
+print "Enter any number";
+$a = <stdin>;
+if ($a > 0) {
+ print "The given number is positive\n";
+ }
+ else {
+  print "The given number is negative\n";
+  }
+  print "End of Control Statement\n";
+
+
+
+Program 10 :
+----------------------------------------------------------------------------
+#! /usr/bin/perl
+print "Enter your name";
+chomp($a = <stdin>);
+if ($a =~ /Wipro/) {
+ print "You are Wipro\n";
+ }
+ else {
+  print "You are not Wipro\n";
+  }
+  print "End of Control Statement\n";
+
+Program 11 :
+=------------------------------------------------------------------------------
+#! /usr/bin/perl
+##
+print "Enter any character";
+chomp($x=<stdin>);
+if ($x eq 'a' || $x eq "e" || $x eq "i" || $x eq "o" || $x eq "u") {
+print "Matched";
+}
+else {
+print "Not Matched";
+}
+
+Program 12:
+------------------------------------------------------------------------------
+#! /usr/bin/perl
+$counter = 25;
+while( $counter <= 75)
+  {
+      print "$counter\t";
+          $counter++;
+            }
+            print "End of Loop"
+
